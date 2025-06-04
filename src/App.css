@@ -1,0 +1,91 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1760a8;
+  color: aqua;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.habit-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.habit-form input {
+  flex: 1;
+  padding: 8px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: none;
+}
+
+.habit-form button {
+  border: none;
+  padding: 8px 16px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: rgb(199, 219, 243);
+  color: rgb(9, 49, 70);
+  border-radius: 5px;
+}
+
+.habit-list {
+  display: flex;
+  flex-direction: column;
+  color: rgb(17, 38, 130);
+  gap: 10px;
+}
+
+.habit-item {
+  background: #93c5e8;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  color: #08315a;
+}
+
+.habit-item.completed {
+  opacity: 0.3;
+  color: rgb(12, 55, 93);
+}
+
+p.subline {
+  color: rgb(186, 203, 247);
+}
+
+.progress-controls {
+  display: flex;
+  align-items: center;
+  color: blue;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.timestamp {
+  display: flex;
+}
+
+.timestamp-item {
+  margin-left: auto;
+  font-size: 0.8em;
+}
+
+@media (max-width: 600px) {
+  .habit-form {
+    flex-direction: column;
+  }
+}
