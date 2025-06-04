@@ -3,7 +3,7 @@
 Description:
 Build a simple Habit Tracker that helps users stay on top of their goals like drinking water, exercising, or reading. you’ll get hands-on practice with components, props, useState, useEffect, and conditional rendering.
 
-🎥 Watch it live! https://phoebetbh.github.io/miniproject_habittracker/
+🎥 Watch it live! https://miniproject-habittracker.onrender.com/
 
 ⌛ Duration: 2 days (Full Time)
 
